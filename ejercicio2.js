@@ -7,7 +7,7 @@ const cuenta = {
     },
     extraer: function(cantidad) {
       if (cantidad > this.saldo) {
-        console.log(`No se puede extraer ${cantidad} euros. El saldo actual es de ${this.saldo} dolares.`);
+        console.log(`No se puede extraer ${cantidad} dolares. El saldo actual es de ${this.saldo} dolares.`);
       } else {
         this.saldo -= cantidad;
         console.log(`Se han extraído ${cantidad} dolares de la cuenta. El saldo actual es de ${this.saldo} dolares.`);
